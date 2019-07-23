@@ -33,3 +33,19 @@ Failed to watch ref '/home/stark/Documents/GIT/Mobile-Function/.git/refs/remotes
 Failed to watch ref '/home/stark/Documents/GIT/Mobile-Function/.git/refs/remotes/origin/master'. Ref is most likely packed.
 > git check-ignore -v -z --stdin
 > git add -A -- .
+> git commit --quiet --allow-empty-message --file - --all
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/stark/Documents/GIT/Mobile-Function/.git/refs/remotes/origin/master'. Ref is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :main.cpp
+> git show :mobile.cpp
+> git show :mobile.h
+> git show :run.sh
+> git show :mobile.cpp

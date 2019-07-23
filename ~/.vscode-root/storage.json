@@ -373,7 +373,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -543,8 +544,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -553,7 +553,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -825,8 +826,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1377,5 +1377,19 @@
     },
     "theme": "vs-dark",
     "themeBackground": "#1e1e1e",
-    "pickerWorkingDir": "/home/stark/Documents/GIT"
+    "pickerWorkingDir": "/home/stark/Documents/GIT",
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/stark/Documents/GIT/Mobile-Function",
+            "backupPath": "/home/stark/Documents/GIT/Mobile-Function/~/.vscode-root/Backups/48096abf09a8e28e92719203acd1a208",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 27,
+                "width": 1280,
+                "height": 693
+            }
+        },
+        "openedWindows": []
+    }
 }

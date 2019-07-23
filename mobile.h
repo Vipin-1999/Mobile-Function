@@ -21,11 +21,10 @@ class Mobile{
             void Show_All_mNumber();
             void Show_Generic_mNumber();
             void Show_Specific_mNumber();
-            std::string Random_mNumber(int,int,int,bool);
-            std::string Generate_mNumber(size_t);
-            std::string Generate_Invalid_mNumber(size_t);
-            mvector domains,generic_mNumber,specific_mNumber;
-
+            std::string Random_mNumber(bool);
+            std::string Generate_mNumber(int);
+            std::string Generate_Invalid_mNumber(int);
+            mvector mNumber,generic_mNumber,specific_mNumber;
 };
 
 #endif

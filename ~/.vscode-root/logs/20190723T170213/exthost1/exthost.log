@@ -1,0 +1,25 @@
+[2019-07-23 17:02:17.634] [exthost] [info] extension host started
+[2019-07-23 17:02:17.804] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2019-07-23 17:02:17.805] [exthost] [info] ExtensionService#loadCommonJSModule /root/.vscode/extensions/ms-vscode.cpptools-0.24.1/dist/main
+[2019-07-23 17:02:18.868] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-07-23 17:02:18.868] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-07-23 17:02:18.884] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-07-23 17:02:18.884] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2019-07-23 17:02:18.952] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-07-23 17:02:18.952] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2019-07-23 17:02:19.248] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-07-23 17:02:19.248] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2019-07-23 17:02:19.261] [exthost] [info] eager extensions activated
+[2019-07-23 17:28:14.426] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-07-23 17:28:14.426] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/configuration-editing/dist/extension
+[2019-07-23 17:28:14.531] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-07-23 17:28:14.534] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2019-07-23 17:28:14.761] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-07-23 17:28:14.761] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2019-07-23 17:48:18.996] [exthost] [error] onWillSaveTextDocument-listener from extension 'ms-vscode.cpptools' threw ERROR
+[2019-07-23 17:48:19.047] [exthost] [error] Error: timeout
+	at Timeout.define._deliverEventAsync.setTimeout [as _onTimeout] (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:457:964)
+	at ontimeout (timers.js:425:11)
+	at tryOnTimeout (timers.js:289:5)
+	at listOnTimeout (timers.js:252:5)
+	at Timer.processTimers (timers.js:212:10)
