@@ -1,0 +1,2 @@
+[2019-07-23 12:56:43.667] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Mobile-Function/.vscode'
+[2019-07-23 12:56:43.679] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Mobile-Function/.vscode'
