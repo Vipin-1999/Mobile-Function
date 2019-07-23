@@ -20,14 +20,21 @@ int main()      {
     m.Show_Generic_mNumber();
     cout << "Specific" << endl;
     m.Show_Specific_mNumber();
-    int choice;
+    int choice, n;
     cout << "Enter the number of numbers to be deleted : ";
     cin >> choice;
     cout << endl << "Enter your choice (specific or generic)";
     cin >> key;
     cout << endl;
-    for (auto i = 0; i < choice; i++)
-        m.Remove_mNumber(m.mNumber.at(i), key);
+    if(key == "generic")
+        n = 1;
+    else
+        n = 0;
+    if(choice > 1)
+        for (auto i = 0; i < choice; i++)
+            m.Remove_mNumber(m.mNumber.at(i), key);
+    else
+        m.Remove_mNumber(m.mNumber.at(n-1));
     m.Show_All_mNumber();
     return 0;
 }
