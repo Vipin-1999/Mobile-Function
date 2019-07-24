@@ -9,10 +9,9 @@ bool Mobile::Validate_mNumber(std::string number)      {
 }
 
 void Mobile::Add_mNumber(std::string number)       {
-    bool flag;
-    flag = Validate_mNumber(number);
-    cout << flag <<endl;
-    if(flag)
+    // bool flag;
+    // flag = Validate_mNumber(number);
+    // if(flag)
         mNumber.push_back(number);   
 }
 
