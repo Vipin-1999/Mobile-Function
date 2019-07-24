@@ -17,8 +17,8 @@ class Mobile{
         void Remove_mNumber();
         void Show_All_mNumber();
         std::string Random_mNumber(bool);
-        std::string Generate_mNumber(size_t);
-        std::string Generate_Invalid_mNumber(size_t);
+        std::string Generate_mNumber(int);
+        std::string Generate_Invalid_mNumber(int);
         mvector mNumber;
 };
 

@@ -5,7 +5,7 @@ using namespace std;
 int main()      {
     Mobile m;
     std::string number;
-    for(auto i = 0; i < 5; i++)    { //1 for valid and 0 for invalid
+    for(auto i = 0; i < 10; i++)    { //1 for valid and 0 for invalid
         number = m.Random_mNumber((i+1)%2);
         m.Add_mNumber(number);
     }

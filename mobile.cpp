@@ -39,7 +39,7 @@ std::string Mobile::Random_mNumber(bool x){
     return Full_number;
 }
 
-std::string Mobile::Generate_mNumber(size_t length)        {
+std::string Mobile::Generate_mNumber(int length)        {
     auto randchar = []() -> char    {
         const char charset[] = "0123456789";
         const size_t max_index = (sizeof(charset) - 1);
@@ -51,7 +51,7 @@ std::string Mobile::Generate_mNumber(size_t length)        {
     return str;
 }
 
-std::string Mobile::Generate_Invalid_mNumber(size_t length)        {
+std::string Mobile::Generate_Invalid_mNumber(int length)        {
     auto randchar = []() -> char    {
         const char charset[] =
         "1234567890";
