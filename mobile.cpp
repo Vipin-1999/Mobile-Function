@@ -9,9 +9,9 @@ bool Mobile::Validate_mNumber(std::string number)      {
 }
 
 void Mobile::Add_mNumber(std::string number)       {
-    // bool flag;
-    // flag = Validate_mNumber(number);
-    // if(flag)
+    bool flag;
+    flag = Validate_mNumber(number);
+    if(flag)
         mNumber.push_back(number);   
 }
 
@@ -30,16 +30,16 @@ std::string Mobile::Random_mNumber(bool x){
     std::string Full_number = "+";
     srand(time(0)+(i++));
     if(x==1)        { 
-        Full_number += Generate_mNumber(14);
+        Full_number += Generate_mNumber(13);
     }
     else        {
-        Full_number += Generate_Invalid_mNumber(rand()%14);
+        Full_number += Generate_Invalid_mNumber(rand()%13);
     }
-    Full_number[Full_number.length()-1]='\0'; 
+    //Full_number[Full_number.length()-1]='\0'; 
     return Full_number;
 }
 
-std::string Mobile::Generate_mNumber(int length)        {
+std::string Mobile::Generate_mNumber(size_t length)        {
     auto randchar = []() -> char    {
         const char charset[] = "0123456789";
         const size_t max_index = (sizeof(charset) - 1);
@@ -51,7 +51,7 @@ std::string Mobile::Generate_mNumber(int length)        {
     return str;
 }
 
-std::string Mobile::Generate_Invalid_mNumber(int length)        {
+std::string Mobile::Generate_Invalid_mNumber(size_t length)        {
     auto randchar = []() -> char    {
         const char charset[] =
         "1234567890";

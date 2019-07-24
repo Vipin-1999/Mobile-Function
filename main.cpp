@@ -20,6 +20,7 @@ int main()      {
     else
         m.Remove_mNumber();
     m.Show_All_mNumber();
+    // cout<<m.Validate_mNumber("+916362764968")<<endl;
     return 0;
 }
 
