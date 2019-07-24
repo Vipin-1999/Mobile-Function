@@ -11,10 +11,14 @@ typedef unsigned long size_t;
 
 class Mobile{
     public:
-        bool Validate_mNumber(std::string);
-        std::string Random_mNumber(bool);
-        std::string Generate_mNumber(int);
-        std::string Generate_Invalid_mNumber(int);
+        bool Validate(std::string);
+        bool Validate(std::string, std::string);
+        std::string Random(bool);
+        std::string Random(bool, std::string);
+        std::string Generate(int);
+        //std::string Generate(int, std::string);
+        std::string Generate_Invalid(int);
+        //std::string Generate_Invalid(int, std::string);
 };
 
 #endif

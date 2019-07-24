@@ -4,3 +4,38 @@
 [2019-07-24 21:39:16.098] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Email-Function/.vscode'
 [2019-07-24 21:39:16.098] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
 [2019-07-24 21:39:16.098] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
+[2019-07-24 21:54:49.648] [renderer1] [error] Model is disposed!: Error: Model is disposed!
+    at P._assertNotDisposed (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1185:509)
+    at P.getVersionId (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1190:300)
+    at e.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4879:410)
+    at Generator.next (<anonymous>)
+    at r (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:293)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-24 21:55:18.675] [renderer1] [error] Model is disposed!: Error: Model is disposed!
+    at P._assertNotDisposed (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1185:509)
+    at P.getVersionId (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1190:300)
+    at e.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4879:410)
+    at Generator.next (<anonymous>)
+    at r (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:293)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-24 21:55:28.325] [renderer1] [error] Model is disposed!: Error: Model is disposed!
+    at P._assertNotDisposed (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1185:509)
+    at P.getVersionId (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1190:300)
+    at e.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4879:410)
+    at Generator.next (<anonymous>)
+    at r (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:293)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-24 21:55:38.956] [renderer1] [error] Model is disposed!: Error: Model is disposed!
+    at P._assertNotDisposed (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1185:509)
+    at P.getVersionId (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1190:300)
+    at e.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4879:410)
+    at Generator.next (<anonymous>)
+    at r (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:293)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-24 21:55:56.952] [renderer1] [error] Model is disposed!: Error: Model is disposed!
+    at P._assertNotDisposed (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1185:509)
+    at P.getVersionId (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:1190:300)
+    at e.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4879:410)
+    at Generator.next (<anonymous>)
+    at r (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:293)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
