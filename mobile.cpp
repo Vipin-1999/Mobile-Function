@@ -34,34 +34,38 @@ void Mobile::Add_mNumber(std::string number, std::string code){
 
 void Mobile::Remove_mNumber(std::string number)        {
     bool flag=1;
-    for(auto j=mNumber.begin();j!=mNumber.end();++j)    {
-        if(*j==number)  {
-            flag=0;
-            mNumber.erase(j);
-            break;
-        }
-    }
-    if(flag)
-        throw invalid_argument("Number does not exist");
-    else    {
-        flag = 2;
-        for(auto j=specific_mNumber.begin(); j!=specific_mNumber.end(); ++j)    {
-            if(*j==number){
+    if(stoi(number) < mNumber.size())     {
+        for(auto j=mNumber.begin();j!=mNumber.end();++j)    {
+            if(*j==number)  {
                 flag=0;
-                specific_mNumber.erase(j);
-                specific_count--;
+                mNumber.erase(j);
                 break;
             }
         }
-        for(auto j=generic_mNumber.begin(); j!=generic_mNumber.end(); ++j)    {
-            if(*j==number){
-                flag=0;
-                generic_mNumber.erase(j);
-                generic_count--;
-                break;
+        if(flag)
+            throw invalid_argument("Number does not exist");
+        else    {
+            flag = 2;
+            for(auto j=specific_mNumber.begin(); j!=specific_mNumber.end(); ++j)    {
+                if(*j==number){
+                    flag=0;
+                    specific_mNumber.erase(j);
+                    specific_count--;
+                    break;
+                }
+            }
+            for(auto j=generic_mNumber.begin(); j!=generic_mNumber.end(); ++j)    {
+                if(*j==number){
+                    flag=0;
+                    generic_mNumber.erase(j);
+                    generic_count--;
+                    break;
+                }
             }
         }
     }
+    else
+        throw invalid_argument("Size does not exist");
 }
 
 void Mobile::Remove_mNumber(std::string number,std::string code)        {
