@@ -8,24 +8,6 @@ bool Mobile::Validate_mNumber(std::string number)      {
     return flag;
 }
 
-void Mobile::Add_mNumber(std::string number)       {
-    bool flag;
-    flag = Validate_mNumber(number);
-    if(flag)
-        mNumber.push_back(number);   
-}
-
-void Mobile::Remove_mNumber()        {
-    vector<std::string>::iterator size;
-    size = mNumber.end();
-    mNumber.erase(size);
-}
-
-void Mobile::Show_All_mNumber()      {
-    for(auto i=0;i<mNumber.size();i++)
-        cout<<mNumber.at(i)<<endl;
-}
-
 std::string Mobile::Random_mNumber(bool x){
     std::string Full_number = "+";
     srand(time(0)+(i++));
@@ -35,7 +17,6 @@ std::string Mobile::Random_mNumber(bool x){
     else        {
         Full_number += Generate_Invalid_mNumber(rand()%13);
     }
-    //Full_number[Full_number.length()-1]='\0'; 
     return Full_number;
 }
 

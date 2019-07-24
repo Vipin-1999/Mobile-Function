@@ -4,3 +4,25 @@
 [2019-07-24 16:27:56.597] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Email-Function/.vscode'
 [2019-07-24 16:27:56.598] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
 [2019-07-24 16:27:56.598] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
+[2019-07-24 16:42:11.066] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Telephone-Function/.vscode'
+[2019-07-24 16:42:11.067] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Telephone-Function/.vscode'
+[2019-07-24 16:47:47.961] [renderer1] [error] Tree element not found: [object Object]: Error: Tree element not found: [object Object]
+    at s.getElementLocation (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:96:851)
+    at s.isCollapsed (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:96:191)
+    at q.isCollapsed (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:953:992)
+    at W.revealMarkersForCurrentActiveEditor (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:5410:345)
+    at W.autoReveal (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:5410:202)
+    at W.onActiveEditorChanged (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:5407:531)
+    at W._register.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:5406:572)
+    at d.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:79:780)
+    at setTimeout (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:76:344)
+[2019-07-24 16:49:15.332] [renderer1] [error] Tree element not found: [object Object]: Error: Tree element not found: [object Object]
+    at s.getElementLocation (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:96:851)
+    at s.isCollapsed (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:96:191)
+    at q.isCollapsed (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:953:992)
+    at W.revealMarkersForCurrentActiveEditor (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:5410:345)
+    at W.autoReveal (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:5410:202)
+    at W.onActiveEditorChanged (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:5407:531)
+    at W._register.e (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:5406:572)
+    at d.fire (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:79:780)
+    at setTimeout (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:76:344)

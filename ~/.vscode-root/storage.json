@@ -1378,8 +1378,11 @@
     "pickerWorkingDir": "/home/stark/Documents/GIT",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/stark/Documents/GIT/Mobile-Function",
-            "backupPath": "/home/stark/Documents/GIT/Mobile-Function/~/.vscode-root/Backups/48096abf09a8e28e92719203acd1a208",
+            "workspaceIdentifier": {
+                "id": "68c89582ed7504b4a2fc7041d1a40342",
+                "configURIPath": "file:///home/stark/Documents/GIT/Mobile-Function/~/.vscode-root/Workspaces/1563965876020/workspace.json"
+            },
+            "backupPath": "/home/stark/Documents/GIT/Mobile-Function/~/.vscode-root/Backups/68c89582ed7504b4a2fc7041d1a40342",
             "uiState": {
                 "mode": 0,
                 "x": 0,
