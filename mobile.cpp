@@ -16,17 +16,10 @@ void Mobile::Add_mNumber(std::string number)       {
         mNumber.push_back(number);   
 }
 
-void Mobile::Remove_mNumber(std::string number)        {
-    bool flag=1;
-    for(auto j=mNumber.begin();j!=mNumber.end();++j)    {
-        if(*j==number)  {
-            flag=0;
-            mNumber.erase(j);
-            break;
-        }
-    }
-    if(flag == 1)
-        throw invalid_argument("Number does not exist");
+void Mobile::Remove_mNumber()        {
+    vector<std::string>::iterator size;
+    size = mNumber.end();
+    mNumber.erase(size);
 }
 
 void Mobile::Show_All_mNumber()      {

@@ -25,9 +25,9 @@ int main()      {
     cout << endl;
     if(choice > 1)
         for (auto i = 0; i < choice; i++)
-            m.Remove_mNumber(m.mNumber.at(i));
+            m.Remove_mNumber();
     else
-        m.Remove_mNumber(m.mNumber.at(choice-1));
+        m.Remove_mNumber();
     m.Show_All_mNumber();
     return 0;
 }
