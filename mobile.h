@@ -16,9 +16,7 @@ class Mobile{
         std::string Random(bool);
         std::string Random(bool, std::string);
         std::string Generate(int);
-        //std::string Generate(int, std::string);
         std::string Generate_Invalid(int);
-        //std::string Generate_Invalid(int, std::string);
 };
 
 #endif
