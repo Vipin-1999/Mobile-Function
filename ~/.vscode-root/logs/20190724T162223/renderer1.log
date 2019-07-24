@@ -1,0 +1,6 @@
+[2019-07-24 16:27:56.584] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Date-Function/.vscode'
+[2019-07-24 16:27:56.589] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Date-Function/.vscode'
+[2019-07-24 16:27:56.590] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Email-Function/.vscode'
+[2019-07-24 16:27:56.597] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Email-Function/.vscode'
+[2019-07-24 16:27:56.598] [renderer1] [error] Error: [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
+[2019-07-24 16:27:56.598] [renderer1] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/stark/Documents/GIT/Name-Function/.vscode'
