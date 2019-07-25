@@ -8,7 +8,6 @@ typedef unsigned long size_t;
 
 // #include "nbind/nbind.h"
 
-
 class Mobile{
     public:
         bool Validate(std::string);
